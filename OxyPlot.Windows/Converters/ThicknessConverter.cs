@@ -19,7 +19,7 @@ namespace OxyPlot.Windows
     /// </summary>
     /// <remarks>This is used to convert BorderThickness properties to Path.StrokeThickness (double).
     /// The maximum thickness value is used.</remarks>
-    public class ThicknessConverter : IValueConverter
+    public sealed class ThicknessConverter : IValueConverter
     {
         /// <summary>
         /// Converts the specified value.

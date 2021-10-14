@@ -525,16 +525,16 @@ namespace OxyPlot.Windows
             Size contentSize = this.contentContainer.DesiredSize;
 
             this.contentContainer.RenderTransform = new TranslateTransform
-                {
-                    X = dx * contentSize.Width,
-                    Y = dy * contentSize.Height
-                };
+            {
+                X = dx * contentSize.Width,
+                Y = dy * contentSize.Height
+            };
 
 #if WPF
             ScreenPoint pos = this.Position;
 #endif
 #if SILVERLIGHT || NETFX_CORE
-            Point pos = this.Position.ToPoint(true);
+            Point pos = new Point(this.Position.X, this.Position.Y);
 #endif
 
             if (this.horizontalLine != null)
@@ -588,12 +588,12 @@ namespace OxyPlot.Windows
             var rect = new Rect(
                 ha == HorizontalAlignment.Left ? m : 0, va == VerticalAlignment.Top ? m : 0, width, height);
             margin = new Thickness
-                {
-                    Left = ha == HorizontalAlignment.Left ? m : 0,
-                    Top = va == VerticalAlignment.Top ? m : 0,
-                    Right = ha == HorizontalAlignment.Right ? m : 0,
-                    Bottom = va == VerticalAlignment.Bottom ? m : 0
-                };
+            {
+                Left = ha == HorizontalAlignment.Left ? m : 0,
+                Top = va == VerticalAlignment.Top ? m : 0,
+                Right = ha == HorizontalAlignment.Right ? m : 0,
+                Bottom = va == VerticalAlignment.Bottom ? m : 0
+            };
             return new RectangleGeometry { Rect = rect /*, RadiusX = this.CornerRadius, RadiusY = this.CornerRadius*/ };
         }
 

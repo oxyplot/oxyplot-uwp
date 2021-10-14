@@ -18,15 +18,14 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="bin\Debug\OxyPlot.Windows.???" target="lib\uap10.0" />
-    <file src="bin\Debug\OxyPlot.Windows\*.*" target="lib\uap10.0\OxyPlot.Windows" />
-    <file src="bin\Debug\OxyPlot.Windows\Themes\*.*" target="lib\uap10.0\OxyPlot.Windows\Themes" />
-    <file src="bin\Debug\OxyPlot.Windows\Icons\*.*" target="lib\uap10.0\OxyPlot.Windows\Icons" />
+    <file src="bin\x64\Release\OxyPlot.Windows.???" target="lib\uap10.0" />
+    <file src="bin\x64\Release\OxyPlot.Windows\*.*" target="lib\uap10.0\OxyPlot.Windows" />
+    <file src="bin\x64\Release\OxyPlot.Windows\Themes\*.*" target="lib\uap10.0\OxyPlot.Windows\Themes" />
 
-    <file src="..\LICENSE" />
-    <file src="..\AUTHORS" />
-    <file src="..\CONTRIBUTORS" />
-    <file src="..\README.md" />
-    <file src="..\CHANGELOG.md" />
+    <file src="..\..\LICENSE" />
+    <file src="..\..\AUTHORS" />
+    <file src="..\..\CONTRIBUTORS" />
+    <file src="..\..\README.md" />
+    <file src="..\..\CHANGELOG.md" />
   </files>
 </package>
