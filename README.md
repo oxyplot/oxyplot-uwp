@@ -10,7 +10,7 @@ You can draw a graph like below in a .NET UWP application.
 
 ### Getting started
 
-1. Use the NuGet package manager to add a reference to OxyPlot (see details below if you want to use pre-release packages)
+1. Use the NuGet package manager to add a reference to OxyPlot (OxyPlot.Windows package can be made in this repository).
 2. Add a `PlotView` to your user interface
 3. Create a `PlotModel` in your code
 4. Bind the `PlotModel` to the `Model` property of your `PlotView`
