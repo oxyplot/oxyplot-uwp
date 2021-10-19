@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,7 +7,7 @@ using System.Runtime.InteropServices;
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更してください。
 [assembly: AssemblyTitle("OxyPlot.Windows")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Graph library for .NET")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("OxyPlot.Windows")]
@@ -27,3 +28,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("2.1.0.0")]
 [assembly: AssemblyFileVersion("2.1.0.0")]
 [assembly: ComVisible(false)]
+[assembly: NeutralResourcesLanguage("en")]

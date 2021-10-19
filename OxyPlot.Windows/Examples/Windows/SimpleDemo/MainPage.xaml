@@ -11,7 +11,7 @@
     <Page.DataContext>
         <local:MainViewModel/>
     </Page.DataContext>
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <windows:PlotView Model="{Binding Model}"/>
+    <Grid>
+        <windows:PlotView Model="{Binding Model}" />
     </Grid>
 </Page>

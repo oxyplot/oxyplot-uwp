@@ -8,14 +8,14 @@
 
   <Identity
     Name="ee1592b9-8047-4bf3-93e3-daa0fe7bbd70"
-    Publisher="CN=objo"
+    Publisher="CN=yoshiteru kageyama"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ee1592b9-8047-4bf3-93e3-daa0fe7bbd70" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>SimpleDemo</DisplayName>
-    <PublisherDisplayName>objo</PublisherDisplayName>
+    <PublisherDisplayName>Yoshiteru Kageyama</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
